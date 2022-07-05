@@ -23,7 +23,7 @@ void push(int val)
 int pop()
 {
 	if(top==NULL)
-	printf("Underflow");
+		printf("Underflow");
 	else
 	{
 		struct node *temp=top;
